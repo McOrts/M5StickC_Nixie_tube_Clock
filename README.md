@@ -7,7 +7,7 @@ The perfect opportunity came up to me when I get the M5Stich-C. It is an amazing
 
 ## Outcome
 
-<img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/Nixie_Clock_M5StickC.gif" width="350"/>
+<img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/Nixie_Clock_M5StickC.gif" width="300"/>
 
 The watch has three faces. You can switch betewen them using the M5 switch.
 - <img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/Nixie_Clock_M5StickC_m1.gif" width="200"/>
@@ -16,8 +16,8 @@ The watch has three faces. You can switch betewen them using the M5 switch.
 
 ## How to
 
-Previously, it is mandatory install the development environment. If you use the Arduino IDE, exists a perfect guide to start up the device: [](https://docs.m5stack.com/#/en/quick_start/m5stickc/m5stickc_quick_start_with_arduino_Windows?id=_2-copy-the-following-esp32-boards-manager-url-to-additional-boards-manager-urls-hit-ok) 
+Previously, it is mandatory install the development environment. If you use the Arduino IDE, exists a perfect guide to start up the device : [M5StickC Quick Start - Arduino Win](https://docs.m5stack.com/#/en/quick_start/m5stickc/m5stickc_quick_start_with_arduino_Windows?id=_2-copy-the-following-esp32-boards-manager-url-to-additional-boards-manager-urls-hit-ok) 
 
-<img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/M5Stick_Arduino_IDE.PNG" width="250" align="right" />
+<img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/M5Stick_Arduino_IDE.PNG" width="300" align="right" />
 
 finally this is the configuration that you need to compile the Arduino sketch:
