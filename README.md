@@ -8,9 +8,9 @@ The perfect opportunity came up to me when I get the M5Stich-C. It is an amazing
 
 ## Outcome
 
-![](https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/Nixie_Clock_M5StickC.gif)
+<img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/Nixie_Clock_M5StickC.gif" width="350"/>
 
 The watch has three faces. You can switch betewen them using the M5 switch.
-- ![](https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/Nixie_Clock_M5StickC_m1.gif)
-- ![](https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/Nixie_Clock_M5StickC_m2.gif)
-- ![](https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/Nixie_Clock_M5StickC_m3.gif)
+- <img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/Nixie_Clock_M5StickC_m1.gif" width="200"/>
+- <img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/Nixie_Clock_M5StickC_m2.gif" width="200"/>
+- <img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/Nixie_Clock_M5StickC_m3.gif" width="200"/>
