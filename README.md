@@ -20,4 +20,6 @@ Previously, it is mandatory install the development environment. If you use the 
 
 <img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/M5Stick_Arduino_IDE.PNG" width="300" align="right" />
 
-finally this is the configuration that you need to compile the Arduino sketch:
+finally this is the configuration that you need to compile the Arduino sketch of M5StickC_Nixie_tube_Clock that you have here in this repository.
+
+Now only that you need is plug in the M5Stick whith the USB-C adaptor and load the program. 
