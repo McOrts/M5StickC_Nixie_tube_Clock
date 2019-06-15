@@ -23,3 +23,23 @@ Previously, it is mandatory install the development environment. If you use the 
 finally this is the configuration that you need to compile the Arduino sketch of M5StickC_Nixie_tube_Clock that you have here in this repository.
 
 Now only that you need is plug in the M5Stick whith the USB-C adaptor and load the program. 
+
+### Hardware components
+The [M5Stack-C]() is a device with multiple components as processor, sensors, interrupters and LED. The processor features are:
+| Microcontroller   | ESP32  |
+| Frequency  | 240MHz  |
+| Flash  | 4MB  |
+| RAM  | 320KB  |
+	
+- **I2C BM8563** : Realizes the RTC function. Address: 0x15. 
+- **AXP192** :  power management IC. 
+- **ST7735S** : LCD IPS Display 80 × 160 pixel, 0,96"
+- **SH200Q** : IMU Movement and positioning 6 axis inertial sensor.
+- **SPM1423** : PDM Micropohne
+- **IR** : IR Transmitter
+
+### Software components
+- [Arduino IDE](https://www.hackster.io/arduino/products/arduino-ide?ref=project-8e87cc)
+- ICONs files: [vfd_18x34.c](https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/vfd_18x34.c), [vfd_35x67.c](https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/vfd_35x67.c) <img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/vfd_35x67_5.png" align="left" />
+
+
