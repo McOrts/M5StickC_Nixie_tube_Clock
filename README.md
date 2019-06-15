@@ -1,5 +1,5 @@
 # Nixie tube clock simulated on ESP32 using the device M5Stick-C
-To build a Nixie tube clock is a perpetual project on my mind. But they require high voltage, expensive and not easy to be wereable. So the feeling I wanted to see was made by software.
+To build a Nixie tube clock is a perpetual project on my mind. But it requires high voltage, expensive and not easy to be wereable. So the feeling I wanted to see was made by software.
 
 <img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/images/M5Stick-C.jpg" width="250" align="right" />
 
