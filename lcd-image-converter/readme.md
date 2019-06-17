@@ -68,6 +68,7 @@ along with this program.  If not, see http://www.gnu.org/licenses/
 Know in advance the destination path. 
 Tick: Import All Images You can also output all the images with “Convert ... all”. 
 
+![](https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/lcd-image-converter/lcd_convert_s.jpg?raw=true)
 
 5. Edit .c converted file. You will get an error as it is, so fix it with your editor. 
 - Change: "Static const uint8_t image_data_vfd_35x67 [4690] = {" at the top of the file deleting "image_data_" as result of "static const uint8_t vfd_35x67_8 [4690] = {". 
