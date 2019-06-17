@@ -24,6 +24,22 @@ finally this is the configuration that you need to compile the Arduino sketch of
 
 Now only that you need is plug in the M5Stick whith the USB-C adaptor and load the program. 
 
+### Update Nixie Tube images
+
+<img src="https://github.com/McOrts/M5StickC_Nixie_tube_Clock/blob/master/lcd-image-converter/lcd_convert_s.jpg" align="right" />
+
+Execute the lcd-image-converter.exe include in this repository.
+1. Png or Jpg is read from File->Open Menu. The image will be displayed when loaded. 
+2. Select: Option->Conversions Menu. The top Preset: selects "Color R5G6B5". 
+3. Select: Image tap and select “8 bit” for Block size :. Press "OK". 
+4. The example "vfd_35x67_8.c" is output by "Convert ..." in File-Convert Menu. 
+Know in advance the destination path. 
+Tick: Import All Images You can also output all the images with “Convert ... all”. 
+5. Edit .c converted file. You will get an error as it is, so fix it with your editor. 
+- Change: "Static const uint8_t image_data_vfd_35x67 [4690] = {" at the top of the file deleting "image_data_" as result of "static const uint8_t vfd_35x67_8 [4690] = {". 
+- At the bottom of delete de entire line: "const tImage vfd_35x67 = {image_data_vfd_35x67, 35, 67, 8};
+- Save the example "vfd_35x67_8".c
+
 ### Hardware components
 The [M5Stick-C]() is a device with multiple components as processor, sensors, interrupters and LED. The processor features are:
 
